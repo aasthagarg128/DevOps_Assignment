@@ -44,13 +44,13 @@ cp terraform.tfvars.example terraform.tfvars
 
 ## Edit values as needed:
 
-region        = "us-east-1"
-instance_type = "t2.micro"
-key_name      = "your-key"
-Initialize and deploy:
-terraform init
-terraform plan
-terraform apply
+-region        = "us-east-1"
+-instance_type = "t2.micro"
+-key_name      = "your-key"
+-Initialize and deploy:
+-terraform init
+-terraform plan
+-terraform apply
 
 Type yes when prompted.
 
