@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service Worker {
+  rpc Infer (Request) returns (Response);
+}
+
+message Request {
+  int32 input = 1;
+}
+
+message Response {
+  int32 result = 1;
+}
