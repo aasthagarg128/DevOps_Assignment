@@ -38,7 +38,7 @@ Terraform installed
 ## Steps
 Clone the repository:
 git clone https://github.com/aasthagarg128/DevOps_Assignment.git
-cd distributed-inference-system/terraform
+cd DevOps_Assign/terraform
 Configure variables:
 cp terraform.tfvars.example terraform.tfvars
 
